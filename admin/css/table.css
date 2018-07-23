@@ -1,0 +1,28 @@
+table {
+    max-width:980px;
+    table-layout:fixed;
+    margin:auto;
+    border:10px solid rgb(236, 225, 225);
+}
+th, td {
+    padding:5px 10px;
+    border:10px solid rgb(250, 246, 246);
+}
+thead, tfoot {
+    background:#f9f9f9;
+    display:table;
+    width:100%;
+    width:calc(100% - 10px);
+}
+tbody {
+    height:300px;
+    overflow:auto;
+    overflow-x:hidden;
+    display:block;
+    width:100%;
+}
+tbody tr {
+    display:table;
+    width:90%;
+    table-layout:fixed;
+}
